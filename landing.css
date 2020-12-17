@@ -1,0 +1,64 @@
+/* landing.css */
+body{
+    background: rgb(245,245,245);
+    color: green;
+    font-size: 25px;
+    font-family: Helvetica;
+    margin: 0px;
+  }
+  h1{
+    font-family: Courier;
+    color: red;
+    font-weight: lighter;
+    font-size: 10px;
+  }
+  h2 {
+    font-family: Courier;
+    color: pink;
+    font-weight: lighter;
+    font-size: 8px;
+  }
+  a {
+    color: yellow;
+  }
+  a:hover {
+    text-decoration: none;
+    color: purple;
+  }
+
+  #banner {
+      background-image: url(https://picsum.photos/1000/600);
+      padding: 150px 0;
+      text-align: center;
+      color: white;
+      background-size: cover;
+  }
+
+  #banner h1 {
+      color: white;
+      font-size: 30px;
+      font-weight: lighter;
+      opacity: 0.7;
+  }
+
+  .card {
+      padding: 20px;
+      text-align: center;
+      align-items: center;
+  }
+
+  #footer {
+     background: rgb(5%, 25%, 50%);
+     text-align: center;
+  }
+
+  #footer ul {
+    font-size: 40px;
+    color: grey;
+    padding: 50px;
+   
+  }
+
+  #footer i:hover {
+      color: white;
+  } 
